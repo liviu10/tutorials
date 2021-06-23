@@ -1,4 +1,4 @@
-# Github Terminal Commands
+Github Terminal Commands
 
 [Github Terminal Commands](https://education.github.com/git-cheat-sheet-education.pdf "Git Cheat Sheet") are a list of commands that are run in the terminal:
 
@@ -63,3 +63,22 @@
     <span style="color:red; font-weight:bold;">
         <pre>git pull origin master</pre>
     </span>
+
+5. Create a new repository in terminal:
+
+    <span style="color:red; font-weight:bold;">
+        <pre>git init</pre>
+    </span>
+    <span style="color:red; font-weight:bold;">
+        <pre>git add --all</pre>
+    </span>
+    <span style="color:red; font-weight:bold;">
+        <pre>git commit --message "Message goes here"</pre>
+    </span>
+    <span style="color:red; font-weight:bold;">
+        <pre>git remote add origin URL_TO_GITHUB_REPO</pre>
+    </span>
+    <span style="color:red; font-weight:bold;">
+        <pre>git push -u origin master</pre>
+    </span>
+
