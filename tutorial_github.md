@@ -28,11 +28,8 @@ Access [official documentation](https://education.github.com/git-cheat-sheet-edu
         <pre>
     <span style="color:white; font-weight:normal;"> (select branch):</span> git checkout branch_name
     <span style="color:white; font-weight:normal;"> (status branch):</span> git status
-    <span style="color:white; font-weight:normal;">   (stage files):</span> git add ".\path\to\file(s)"
+    <span style="color:white; font-weight:normal;">   (stage files):</span> git add ".\path\to\file(s)_or_folder(s)"
     <span style="color:white; font-weight:normal;">  (commit files):</span> git commit --message "..."</pre>
-        <pre>
-    <span style="color:white; font-weight:normal;">   (stage all):</span> git add --all
-    <span style="color:white; font-weight:normal;">(stage folder):</span> git add ".\path\to\folder"</pre>
     </span>
 
 2. Push modified files to your remote branch: 
@@ -48,13 +45,19 @@ Access [official documentation](https://education.github.com/git-cheat-sheet-edu
         <pre>
     <span style="color:white; font-weight:normal;">      (pull request):</span> git request-pull branch_name url master
     <span style="color:white; font-weight:normal;">     (master branch):</span> git checkout master
+    <span style="color:white; font-weight:normal;">      (pull request):</span> git pull origin master
     <span style="color:white; font-weight:normal;">(merge local branch):</span> git merge --no-ff branch_name
     <span style="color:white; font-weight:normal;">(push master branch):</span> git push origin master</pre>
     </span>
 
-4. Pull modification into local branch:
+## C. <u>Other Commands</u>:
 
-    <span style="color:red; font-weight:bold;">
-        <pre>
-    <span style="color:white; font-weight:normal;">(pull request):</span> git pull origin master</pre>
-    </span>
+<span style="color:red; font-weight:bold;">
+    <pre>
+<span style="color:white; font-weight:normal;">       (stage all):</span> git add -a
+<span style="color:white; font-weight:normal;">    (commit files):</span> git commit -m "..."
+<span style="color:white; font-weight:normal;">     (stash files):</span> git stash
+<span style="color:white; font-weight:normal;">(drop stash files):</span> git stash drop
+<span style="color:white; font-weight:normal;">   (unstage files):</span> git reset ".\path\to\file(s)"
+<span style="color:white; font-weight:normal;">    (show history):</span> git log</pre>
+</span>
