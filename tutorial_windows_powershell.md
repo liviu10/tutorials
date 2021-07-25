@@ -1,7 +1,6 @@
-# Using Windows PowerShell for basic operations: [Command List](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/?view=powershell-7.1 "Windows PowerShell Commands List")
+# Windows PowerShell for basic operations: 
 
-Bellow you will find some basic Windows PowerShell commands that are very useful:
-
+Access Windows PowerShell [official documentation](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/?view=powershell-7.1 "Windows PowerShell Official Documentation") to see all the available commands.
 ## A. <u>Navigation Commands</u>:
 
 1. Navigate one directory up: 
