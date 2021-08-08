@@ -3,12 +3,11 @@
 Instead of defining all of your request handling logic as closures in your route files, you may wish to organize this behavior using "controller" classes. Controllers can group related request handling logic into a single class. For example, a UserController class might handle all incoming requests related to users, including showing, creating, updating, and deleting users. By default, controllers are stored in the <span style="font-style:italic; font-weight:bold;">app > http > controllers</span> directory.
 
 1. Run this command in Windows PowerShell to create a controller: 
-   * the first command will create a simple controller file inside <span style="font-style:italic; font-weight:bold;">app > http > controllers </span> folder;
-   * the second command will create a controller (with C.R.U.D. operations) file inside <span style="font-style:italic; font-weight:bold;">app > http > controllers </span> folder;
 
     <span style="color:red; font-weight:bold;">
-        <pre>php artisan make:controller UserController</pre>
-        <pre>php artisan make:controller UserController --resource</pre>
+        <pre>
+    <span style="color:white; font-weight:normal;">  (create simple controller):</span> php artisan make:controller UserController
+    <span style="color:white; font-weight:normal;">(create resource controller):</span> php artisan make:controller UserController --resource</pre>
     </span>
 
 2. C.R.U.D. operations stands for: CREATE, READ, UPDATE and DELETE. A resource controller will use the following methods and can be used also when creating an API:
