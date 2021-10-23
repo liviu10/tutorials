@@ -50,6 +50,14 @@ Access Windows PowerShell [official documentation](https://docs.microsoft.com/en
     <span style="color:white; font-weight:normal;">(short cmd):</span> gi "C:\path\to\your\directory\(fileName)"
     <span style="color:white; font-weight:normal;"> (long cmd):</span> Get-Item -Path "C:\path\to\your\directory\(fileName)"</pre>
     </span>
+    
+7. Search files in a certaing directory or partition:
+
+    <span style="color:red; font-weight:bold;">
+        <pre>
+    <span style="color:white; font-weight:normal;">(short cmd):</span> dir -Path 'C:\path\to\your\directory' -Recurse -Include '.xlsx' -ErrorAction 'SilentlyContinue'
+    <span style="color:white; font-weight:normal;"> (long cmd):</span> Get-ChildItem -Path 'C:\path\to\your\directory' -Recurse -Include '.xlsx' -ErrorAction 'SilentlyContinue'</pre>
+    </span>
 
 ## B. <u>Item Manipulation Commands</u>:
 
