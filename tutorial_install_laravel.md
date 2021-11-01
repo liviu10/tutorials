@@ -1,4 +1,4 @@
-# Laravel Tutorials - Table of Contents:
+# <a name="top"></a>Laravel Tutorials - Table of Contents:
    [<h3>1. Install Laravel v8.0</h3>](#install_laravel)
    [<h3>2. Configure Environment Settings</h3>](#configure_env_settings)
    [<h3>3. Install Laravel Vue Spa</h3>](#install_laravel_vue_spa)
@@ -10,7 +10,7 @@
    [<h3>9. Install PurgeCSS</h3>](#install_purge_css)
    <br>
 
-## <a name="install_laravel">Install Laravel 8 Framework</a>
+## <a name="install_laravel"></a>Install Laravel 8 Framework [&#8593; top](#top)
 
 To install [Laravel Framework](https://laravel.com/docs/8.x/installation "Laravel v8 - Web Application Framework for PHP") you just need to open Windows PowerShell and type in one of the following commands (you can install Laravel Framework either locally as a single project dependency or globally):
 
@@ -22,7 +22,7 @@ To install [Laravel Framework](https://laravel.com/docs/8.x/installation "Larave
 <span style="color:white; font-weight:normal;">      (create a new project):</span> laravel new example-app</pre>
 </span>
 
-## <a name="configure_env_settings">Configure the environment settings</a>
+## <a name="configure_env_settings"></a>Configure the environment settings [&#8593; top](#top)
 
 After the installation process is finished, make sure to configure the following variables in the <span style="font-style:italic;font-weight:bold;">.env</span> file from the root of your projects' directory:
 
@@ -36,7 +36,7 @@ After the installation process is finished, make sure to configure the following
 <span style="color:white; font-weight:normal;">       (database password):</span> DB_PASSWORD=</pre>
 </span>
 
-## <a name="install_laravel_vue_spa">Install Laravel Vue SPA</a>
+## <a name="install_laravel_vue_spa"></a>Install Laravel Vue SPA [&#8593; top](#top)
 
 To install [Laravel Vue SPA](https://github.com/cretueusebiu/laravel-vue-spa "Laravel Vue SPA - A Laravel-Vue SPA starter kit") you just need to open Windows PowerShell and type in the following commands (this starter kit comes with Laravel v8, VueJS v2 and Bootstrap v4.6):
 
@@ -52,7 +52,7 @@ To install [Laravel Vue SPA](https://github.com/cretueusebiu/laravel-vue-spa "La
 <span style="color:white; font-weight:normal;">  (compile assets - prod.):</span> npm run production -- --watch</pre>
 </span>
 
-## <a name="install_laravel_breeze_and_inertia">Install Laravel Breeze & Inertia</a>
+## <a name="install_laravel_breeze_and_inertia"></a>Install Laravel Breeze & Inertia [&#8593; top](#top)
 
 To install [Laravel Breeze](https://laravel.com/docs/8.x/starter-kits "Laravel Breeze - A Laravel starter kit") and [Inertia](https://laravel.com/docs/8.x/starter-kits "Laravel Breeze - A Laravel starter kit") you just need to open Windows PowerShell and type in the following commands:
 
@@ -69,7 +69,7 @@ To install [Laravel Breeze](https://laravel.com/docs/8.x/starter-kits "Laravel B
 <span style="color:white; font-weight:normal;">   (compile assets - dev.):</span> npm run dev</pre>
 </span>
 
-## <a name="install_laravel_fortify">Install Laravel Fortify</a>
+## <a name="install_laravel_fortify"></a>Install Laravel Fortify [&#8593; top](#top)
 
 [Laravel Fortify](https://laravel.com/docs/8.x/fortify#installation "Laravel Fortify") is a frontend agnostic authentication backend implementation for Laravel. Fortify registers the routes and controllers needed to implement all of Laravel's authentication features, including login, registration, password reset, email verification, and more.
 
@@ -121,7 +121,7 @@ To install [Laravel Breeze](https://laravel.com/docs/8.x/starter-kits "Laravel B
         <pre>App\Providers\FortifyServiceProvider::class,</pre>
     </span>
 
-## <a name="install_laravel_jetstream">Install Laravel Jetstream</a>
+## <a name="install_laravel_jetstream"></a>Install Laravel Jetstream [&#8593; top](#top)
 
 [Laravel Jetstream](https://jetstream.laravel.com/2.x/introduction.html "Laravel Jetstream") is a beautifully designed application starter kit for Laravel and provides the perfect starting point for your next Laravel application. Jetstream provides the implementation for your application's login, registration, email verification, two-factor authentication, session management, API via Laravel Sanctum, and optional team management features.
 
@@ -137,7 +137,7 @@ To install [Laravel Breeze](https://laravel.com/docs/8.x/starter-kits "Laravel B
         <pre>php artisan jetstream:install livewire</pre>
     </span>
 
-## <a name="install_npm">Install Node.js and npm</a>
+## <a name="install_npm"></a>Install Node.js and npm [&#8593; top](#top)
 
 To install [Node.js](https://nodejs.org/en/ "Node.js - JavaScript runtime built") you just need to download and install it as a regular Windows executable file. Node package manager (npm) is installed together with Node.js. Bellow is a [list](https://docs.npmjs.com/cli/v7/commands "NPM - CLI Commands") of commonly use NPM commands:
 
@@ -154,7 +154,7 @@ To install [Node.js](https://nodejs.org/en/ "Node.js - JavaScript runtime built"
 
 
 
-## <a name="install_bootstrap_sass">Install Bootstrap v5.0 & SASS</a>
+## <a name="install_bootstrap_sass"></a>Install Bootstrap v5.0 & SASS [&#8593; top](#top)
 
 To install [Bootstrap Framework](https://getbootstrap.com/docs/5.0/getting-started/download/ "Bootstrap v5.0 - Frontend Framework") and [SASS](https://sass-lang.com/install "SASS - CSS Pre-processor") you just need to open Windows PowerShell and:
 
@@ -166,7 +166,7 @@ To install [Bootstrap Framework](https://getbootstrap.com/docs/5.0/getting-start
 </span>
 
 
-## <a name="install_purge_css">Install PurgeCSS</a>
+## <a name="install_purge_css"></a>Install PurgeCSS [&#8593; top](#top)
 
 To install [PurgeCSS](https://purgecss.com/CLI.html#installation "PurgeCSS - Tool to remove unused CSS") you just need to open Windows PowerShell and:
 
