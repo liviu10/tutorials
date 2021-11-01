@@ -1,13 +1,13 @@
 # <a name="top"></a>Laravel Tutorials - Table of Contents:
-[1. Install Laravel v8.0](#install_laravel)
-[2. Configure Environment Settings](#configure_env_settings)
-[3. Install Laravel Vue Spa](#install_laravel_vue_spa)
-[4. Install Laravel Breeze & Inertia](#install_laravel_breeze_and_inertia)
-[5. Install Laravel Fortify](#install_laravel_fortify)
-[6. Install Laravel Jetstream](#install_laravel_jetstream)
-[7. Install NPM and NodeJS server](#install_npm)
-[8. Install Bootstrap v5.0 & SASS](#install_bootstrap_sass)
-[9. Install PurgeCSS](#install_purge_css)
+   [1. Install Laravel v8.0](#install_laravel)
+   [2. Configure Environment Settings](#configure_env_settings)
+   [3. Install Laravel Vue Spa](#install_laravel_vue_spa)
+   [4. Install Laravel Breeze & Inertia](#install_laravel_breeze_and_inertia)
+   [5. Install Laravel Fortify](#install_laravel_fortify)
+   [6. Install Laravel Jetstream](#install_laravel_jetstream)
+   [7. Install NPM and NodeJS server](#install_npm)
+   [8. Install Bootstrap v5.0 & SASS](#install_bootstrap_sass)
+   [9. Install PurgeCSS](#install_purge_css)
    <br>
 
 ## <a name="install_laravel"></a>Install Laravel 8 Framework [&#8593; top](#top)
