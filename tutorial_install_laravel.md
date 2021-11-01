@@ -1,13 +1,13 @@
 # <a name="top"></a>Laravel Tutorials - Table of Contents:
-[<h3>1. Install Laravel v8.0</h3>](#install_laravel)
-[<h3>2. Configure Environment Settings</h3>](#configure_env_settings)
-[<h3>3. Install Laravel Vue Spa</h3>](#install_laravel_vue_spa)
-[<h3>4. Install Laravel Breeze & Inertia</h3>](#install_laravel_breeze_and_inertia)
-[<h3>5. Install Laravel Fortify</h3>](#install_laravel_fortify)
-[<h3>6. Install Laravel Jetstream</h3>](#install_laravel_jetstream)
-[<h3>7. Install NPM and NodeJS server</h3>](#install_npm)
-[<h3>8. Install Bootstrap v5.0 & SASS</h3>](#install_bootstrap_sass)
-[<h3>9. Install PurgeCSS</h3>](#install_purge_css)
+      [<h3>1. Install Laravel v8.0</h3>](#install_laravel)
+      [<h3>2. Configure Environment Settings</h3>](#configure_env_settings)
+      [<h3>3. Install Laravel Vue Spa</h3>](#install_laravel_vue_spa)
+      [<h3>4. Install Laravel Breeze & Inertia</h3>](#install_laravel_breeze_and_inertia)
+      [<h3>5. Install Laravel Fortify</h3>](#install_laravel_fortify)
+      [<h3>6. Install Laravel Jetstream</h3>](#install_laravel_jetstream)
+      [<h3>7. Install NPM and NodeJS server</h3>](#install_npm)
+      [<h3>8. Install Bootstrap v5.0 & SASS</h3>](#install_bootstrap_sass)
+      [<h3>9. Install PurgeCSS</h3>](#install_purge_css)
    <br>
 
 ## <a name="install_laravel"></a>Install Laravel 8 Framework [&#8593; top](#top)
