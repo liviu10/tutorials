@@ -1,5 +1,5 @@
 # <a name="top"></a>Laravel Tutorials - Table of Contents:
-   [1. Install Laravel v8.0](#install_laravel)<br>
+   <p>[1. Install Laravel v8.0](#install_laravel)<p>
    [2. Configure Environment Settings](#configure_env_settings)<br>
    [3. Install Laravel Vue Spa](#install_laravel_vue_spa)<br>
    [4. Install Laravel Breeze & Inertia](#install_laravel_breeze_and_inertia)<br>
