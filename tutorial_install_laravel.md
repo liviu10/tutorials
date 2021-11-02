@@ -162,7 +162,7 @@ To install [Bootstrap Framework](https://getbootstrap.com/docs/5.0/getting-start
     <pre>
 <span style="color:white; font-weight:normal;">(install Bootstrap package):</span> composer require twbs/bootstrap:5.1.0
 <span style="color:white; font-weight:normal;">    (globally install SASS):</span> npm install --global sass
-<span style="color:white; font-weight:normal;"> (compile SCSS to CSS file):</span> sass --watch "pathToSCSSFile/main-styles.scss" "pathToCSSFile/main-styles.css"</pre>
+<span style="color:white; font-weight:normal;"> (compile SCSS to CSS file):</span> sass "pathToSCSSFile/main-styles.scss" "pathToCSSFile/main-styles.css"</pre>
 </span>
 
 
