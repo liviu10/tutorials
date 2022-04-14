@@ -93,7 +93,7 @@
     <span style="color:white; font-weight:normal;">(set owner node_modules):</span> sudo chmod -R u+x node_modules/
     <span style="color:white; font-weight:normal;">     (set owner storage):</span> sudo chmod -R ugo+rw storage/
     <span style="color:white; font-weight:normal;">     ( set owner public):</span> sudo chmod -R ugo+rw public/
-    <span style="color:white; font-weight:normal;">(permissions local user):</span> sudo chown -R username /path/to/directory
+    <span style="color:white; font-weight:normal;">(permissions local user):</span> sudo chown -R username:groupname /path/to/directory
     <span style="color:white; font-weight:normal;"> (restart apache server):</span> sudo systemctl restart apache2</pre>
     </span>
 
