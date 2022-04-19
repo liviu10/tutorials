@@ -10,7 +10,8 @@ Access [official documentation](https://education.github.com/git-cheat-sheet-edu
         <pre>
     <span style="color:white; font-weight:normal;">     (generate ssh key):</span> ssh-keygen -o
     <span style="color:white; font-weight:normal;">  (view & copy ssh key):</span> cat /home/username/.ssh/id_rsa.pub
-    <span style="color:white; font-weight:normal;">(add ssh key to github):</span> profile settings > SSH and GPG key > New SSH key</pre>
+    <span style="color:white; font-weight:normal;">(add ssh key to github):</span> profile settings > SSH and GPG key > New SSH key
+    <span style="color:white; font-weight:normal;">(set ssh key to github):</span> git remote set-url origin git@github.com:username/repository_name.git</pre>
     </span>
 
 ## B. <u>Clone or initialize repository</u>:
