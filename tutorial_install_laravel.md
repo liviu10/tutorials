@@ -18,6 +18,7 @@ To install [Laravel Framework](https://laravel.com/docs/8.x/installation "Larave
     <pre>
 <span style="color:white; font-weight:normal;">      (create a new project):</span> composer create-project laravel/laravel example-app
 <span style="color:white; font-weight:normal;">(new project in current dir):</span> composer create-project laravel/laravel ./
+<span style="color:white; font-weight:normal;">   (specify laravel version):</span> composer create-project laravel/laravel="8.*" example-app
 <span style="color:white; font-weight:normal;">  (install laravel globally):</span> composer global require laravel/installer
 <span style="color:white; font-weight:normal;">      (create a new project):</span> laravel new example-app</pre>
 </span>
