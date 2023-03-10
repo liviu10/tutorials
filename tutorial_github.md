@@ -92,5 +92,6 @@ Access [official documentation](https://education.github.com/git-cheat-sheet-edu
 <span style="color:white; font-weight:normal;">   (unstage files):</span> git reset ".\path\to\file(s)"
 <span style="color:white; font-weight:normal;">    (show history):</span> git log
 <span style="color:white; font-weight:normal;"> (config username):</span> git config --global user.name 'Your Name'
-<span style="color:white; font-weight:normal;"> (config username):</span> git config --global user.email 'Your Email'</pre>
+<span style="color:white; font-weight:normal;"> (config username):</span> git config --global user.email 'Your Email'
+<span style="color:white; font-weight:normal;"> (pull form other repo):</span> git pull <git_url> <branch> --allow-unrelated-histories</pre>
 </span>
