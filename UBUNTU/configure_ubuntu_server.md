@@ -83,13 +83,12 @@
 
     <span style="color:red; font-weight:bold;">
         <pre>
-    <span style="color:white; font-weight:normal;">      (create new group):</span> sudo addgroup group_name
-    <span style="color:white; font-weight:normal;">     (add user to group):</span> sudo adduser username group_name
-    <span style="color:white; font-weight:normal;">   (change folder owner):</span> sudo chown -R root:group_name /var/www/html/
+    <span style="color:white; font-weight:normal;">      (create new group):</span> sudo addgroup groupname
+    <span style="color:white; font-weight:normal;">     (add user to group):</span> sudo adduser username groupname
     <span style="color:white; font-weight:normal;">   (add 664 permissions):</span> sudo find /var/www/html/ -type f -exec chmod 664 {} \;
     <span style="color:white; font-weight:normal;">   (add 775 permissions):</span> sudo find /var/www/html/ -type f -exec chmod 775 {} \; (BAD PRACTICE: sudo chmod 777 /var/www/html -R)
     <span style="color:white; font-weight:normal;">(set group id up & SGIG):</span> sudo find /var/www/html/ -type f -exec chmod g+s {} \;
-    <span style="color:white; font-weight:normal;">(set owner for www-data):</span> sudo chown -R www-data:group_name /var/www/html/
+    <span style="color:white; font-weight:normal;">      (set folder owner):</span> sudo chown -R username:groupname /var/www/html/
     <span style="color:white; font-weight:normal;">(set owner node_modules):</span> sudo chmod -R u+x node_modules/
     <span style="color:white; font-weight:normal;">     (set owner storage):</span> sudo chmod -R ugo+rw storage/
     <span style="color:white; font-weight:normal;">     ( set owner public):</span> sudo chmod -R ugo+rw public/
