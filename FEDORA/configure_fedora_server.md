@@ -48,13 +48,15 @@
     <span style="color:white; font-weight:normal;">  (install MySQL server):</span> sudo dnf install mysql-server
     <span style="color:white; font-weight:normal;"> (install php for mysql):</span> sudo dnf install php-mysqlnd
     <span style="color:white; font-weight:normal;">    (install phpmyadmin):</span> sudo dnf install phpmyadmin (select apache2 and dbconfig-common no)
+    <span style="color:white; font-weight:normal;">          (mysql status):</span> sudo systemctl status mysqld
+    <span style="color:white; font-weight:normal;">           (mysql start):</span> sudo systemctl start mysqld
+    <span style="color:white; font-weight:normal;">  (mysql enable on boot):</span> sudo systemctl enable mysqld
     <span style="color:white; font-weight:normal;">          (access mysql):</span> sudo mysql (and enter your credentials)
     <span style="color:white; font-weight:normal;">  (root access to mysql):</span> SELECT user, authentication_string, host FROM mysql.user;
     <span style="color:white; font-weight:normal;">   (auth_string to root):</span> ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'your_password_here';
     <span style="color:white; font-weight:normal;">      (flush privileges):</span> FLUSH PRIVILEGES;
     <span style="color:white; font-weight:normal;">        (create db user):</span> CREATE USER 'username'@'localhost' IDENTIFIED BY 'password';
     <span style="color:white; font-weight:normal;">  (grant access to user):</span> GRANT ALL PRIVILEGES ON *.* TO 'username'@'localhost' WITH GRANT OPTION;
-    <span style="color:white; font-weight:normal;">    (enable apache mods):</span> sudo dnf install mod_php
     <span style="color:white; font-weight:normal;">    (link to phpmyadmin):</span> sudo ln -s /usr/share/phpmyadmin /var/www/html/phpmyadmin</pre>
 </span>
 
@@ -64,11 +66,7 @@
     <span style="color:white; font-weight:normal;">      (install composer):</span> sudo dnf install composer
     <span style="color:white; font-weight:normal;">       (install laravel):</span> composer create-project --prefer-dist laravel/laravel project_name
     <span style="color:white; font-weight:normal;">        (install nodejs):</span> sudo dnf install nodejs
-    <span style="color:white; font-weight:normal;">(update and upgrade dnf):</span> sudo dnf update && sudo dnf upgrade
     <span style="color:white; font-weight:normal;">          (install curl):</span> sudo dnf install -y curl
-    <span style="color:white; font-weight:normal;">(download latest nodejs):</span> curl -fsSL https://rpm.nodesource.com/setup_16.x | sudo -E bash -
-    <span style="color:white; font-weight:normal;"> (install latest nodejs):</span> sudo dnf install -y nodejs
-    <span style="color:white; font-weight:normal;">           (install npm):</span> sudo dnf install npm
     <span style="color:white; font-weight:normal;">   (add .env to project):</span> set credentials to connect to the database
     <span style="color:white; font-weight:normal;">     (migrate & seed db):</span> php artisan migrate && php artisan db:seed</pre>
 </span>
@@ -82,9 +80,6 @@
     <span style="color:white; font-weight:normal;">   (add 775 permissions):</span> sudo find /var/www/html/ -type d -exec chmod 775 {} \; (BAD PRACTICE: sudo chmod 777 /var/www/html -R)
     <span style="color:white; font-weight:normal;">(set group id up & SGIG):</span> sudo find /var/www/html/ -type d -exec chmod g+s {} \;
     <span style="color:white; font-weight:normal;">      (set folder owner):</span> sudo chown -R username:groupname /var/www/html/
-    <span style="color:white; font-weight:normal;">(set owner node_modules):</span> sudo chmod -R u+x node_modules/
-    <span style="color:white; font-weight:normal;">     (set owner storage):</span> sudo chmod -R ugo+rw storage/
-    <span style="color:white; font-weight:normal;">     ( set owner public):</span> sudo chmod -R ugo+rw public/
     <span style="color:white; font-weight:normal;"> (restart apache server):</span> sudo systemctl restart httpd</pre>
 </span>
 
