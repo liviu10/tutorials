@@ -63,7 +63,6 @@
     <span style="color:white; font-weight:normal;">      (install composer):</span> sudo dnf install composer
     <span style="color:white; font-weight:normal;">       (install laravel):</span> composer create-project --prefer-dist laravel/laravel project_name
     <span style="color:white; font-weight:normal;">        (install nodejs):</span> sudo dnf install nodejs
-    <span style="color:white; font-weight:normal;">          (install curl):</span> sudo dnf install -y curl
     <span style="color:white; font-weight:normal;">   (add .env to project):</span> set credentials to connect to the database
     <span style="color:white; font-weight:normal;">     (migrate & seed db):</span> php artisan migrate && php artisan db:seed</pre>
 </span>
