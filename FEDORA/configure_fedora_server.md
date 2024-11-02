@@ -21,13 +21,11 @@
     <span style="color:white; font-weight:normal;">       (enable firewall):</span> sudo firewall-cmd --permanent --add-service=ssh
     <span style="color:white; font-weight:normal;">          (open port 22):</span> sudo firewall-cmd --permanent --add-port=22/tcp
     <span style="color:white; font-weight:normal;">           (port status):</span> sudo firewall-cmd --list-all
-    <span style="color:white; font-weight:normal;">           (port status):</span> sudo firewall-cmd --list-all
     <span style="color:white; font-weight:normal;">     (install net tools):</span> sudo dnf install net-tools
     <span style="color:white; font-weight:normal;">   (Fedora's ip address):</span> ip addr show
     <span style="color:white; font-weight:normal;">(install openssh server):</span> sudo dnf install openssh-server
     <span style="color:white; font-weight:normal;"> (install apache server):</span> sudo dnf install httpd
     <span style="color:white; font-weight:normal;">   (check apache status):</span> sudo systemctl status httpd
-    <span style="color:white; font-weight:normal;">   (check firewall apps):</span> sudo firewall-cmd --list-all
     <span style="color:white; font-weight:normal;">   (apache port for ssl):</span> sudo firewall-cmd --permanent --add-service=https</pre>
 </span>
 
@@ -44,7 +42,7 @@
 2. Install PHP and MySQL:
 <span style="color:red; font-weight:bold;">
     <pre>
-    <span style="color:white; font-weight:normal;">           (install php):</span> sudo dnf install php php-cli php-mbstring php-mysqlnd php-fpm php-json
+    <span style="color:white; font-weight:normal;">           (install php):</span> sudo dnf install php php-cli php-fpm php-mysqlnd php-xml php-mbstring php-json php-zip php-gd php-curl
     <span style="color:white; font-weight:normal;">  (install MySQL server):</span> sudo dnf install mysql-server
     <span style="color:white; font-weight:normal;"> (install php for mysql):</span> sudo dnf install php-mysqlnd
     <span style="color:white; font-weight:normal;">    (install phpmyadmin):</span> sudo dnf install phpmyadmin (select apache2 and dbconfig-common no)
