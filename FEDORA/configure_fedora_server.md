@@ -44,7 +44,6 @@
     <pre>
     <span style="color:white; font-weight:normal;">           (install php):</span> sudo dnf install php php-cli php-fpm php-mysqlnd php-xml php-mbstring php-json php-zip php-gd php-curl
     <span style="color:white; font-weight:normal;">  (install MySQL server):</span> sudo dnf install mysql-server
-    <span style="color:white; font-weight:normal;"> (install php for mysql):</span> sudo dnf install php-mysqlnd
     <span style="color:white; font-weight:normal;">    (install phpmyadmin):</span> sudo dnf install phpmyadmin (select apache2 and dbconfig-common no)
     <span style="color:white; font-weight:normal;">          (mysql status):</span> sudo systemctl status mysqld
     <span style="color:white; font-weight:normal;">           (mysql start):</span> sudo systemctl start mysqld
