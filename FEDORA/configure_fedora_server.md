@@ -83,10 +83,18 @@
 </span>
 
 5. Generate SSH key for github:
- <span style="color:red; font-weight:bold;">
+<span style="color:red; font-weight:bold;">
     <pre>
     <span style="color:white; font-weight:normal;">  (verify if ssh exists):</span> ls -l ~/.ssh/id_*.pub
     <span style="color:white; font-weight:normal;">      (generate ssh key):</span> ssh-keygen -t rsa -b 4096 -C "your_email@domain.com"
     <span style="color:white; font-weight:normal;">    (verify ssh pairing):</span> ls ~/.ssh/id_*
     <span style="color:white; font-weight:normal;">          (copy ssh key):</span> cat ~/.ssh/id_rsa.pub</pre>
+</span>
+
+6. Mount share folders in fedora:
+<span style="color:red; font-weight:bold;">
+    <pre>
+    <span style="color:white; font-weight:normal;">(check if vboxsf is loaded):</span> lsmod | grep vboxsf
+    <span style="color:white; font-weight:normal;">     (manually load vboxsf):</span> sudo modprobe vboxsf
+    <span style="color:white; font-weight:normal;">       (mount share folder):</span> sudo mount -t vboxsf [directory_name] /media/[shared_folder_name]</pre>
 </span>
